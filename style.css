@@ -1,0 +1,70 @@
+#A{
+    width:200px;
+    height:200px;
+    padding: 200px;
+}
+#A-1{
+    border: 2px solid #f22f55;
+    width:10px;
+    height:70px;
+    background-color: #f22f55;
+    transform: skewX(-45deg);
+    border-radius: 5px 5px 5px 5px;
+}
+#A-2{
+    /* position: absolute; */
+    /* width:0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid black; */
+    border: 2px solid #f22f55;
+    width:20px;
+    height:70px;
+    background-color: #f22f55;
+    transform: rotate(90deg);
+    border-radius: 5px 5px 5px 5px;
+}
+/* #A-2::before{
+    /* position: absolute;
+    top:50px;
+    width:0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid black; */
+    /* content: "";
+    position: absolute;
+    left:15px;
+    top:28px;
+    border: 2px solid #f22f55;
+    width:5px;
+    height:2px;
+    background-color: #f22f55;
+    transform: skew(105deg,50deg); */
+
+#A-1::before{
+    content: "";
+    position: absolute;
+    left:15px;
+    top:28px;
+    border: 2px solid #f22f55;
+    width:5px;
+    height:2px;
+    background-color: #f22f55;
+    transform: skew(105deg,50deg);
+    /* border-radius: 5px 5px 5px 5px; */
+}
+#A-1::after{
+    content: "";
+    position: absolute;
+    left:38px;
+    top:-1px;
+    border: 2px solid #f22f55;
+    width:10px;
+    height:70px;
+    background-color: #f22f55;
+    transform: skewX(45deg);
+    border-radius: 5px 5px 5px 5px;
+
+}
